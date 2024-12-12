@@ -11,5 +11,8 @@ variable "age" {
 
 variable "users" {
   type = list
+  default = ["a","b","c"]
 }
+
+
 
