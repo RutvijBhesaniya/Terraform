@@ -10,8 +10,8 @@ variable "age" {
 }
 
 variable "users" {
-  type = list
-  default = ["a","b","c"]
+  type    = list(any)
+  default = ["a", "b", "c"]
 }
 
 
