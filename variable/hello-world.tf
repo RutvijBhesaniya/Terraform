@@ -17,3 +17,7 @@ output "usersupperfunction" {
   value = upper(var.users[0]) # Outputs the first user in uppercase
 }
 
+output "usersages" {
+  value = "My name is ${var.usernamewithmap} and my age is ${lookup(var.usersage,var.usernamewithmap)}"
+}
+

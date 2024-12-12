@@ -15,4 +15,17 @@ variable "users" {
 }
 
 
+variable "usersage" {
+  type = map
+  default = {
+    gaurav = 20
+    saurav = 30
+  }
+}
+
+variable "usernamewithmap" {
+  type = string
+}
+
+
 
