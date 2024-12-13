@@ -1,12 +1,10 @@
 #terraform plan -var "username=RR"
 variable "username" {
-  type    = string
-  default = "xyz"
+  type = string
 }
 
 variable "age" {
-  type    = number
-  default = "10"
+  type = number
 }
 
 variable "users" {
@@ -16,7 +14,7 @@ variable "users" {
 
 
 variable "usersage" {
-  type = map
+  type = map(any)
   default = {
     gaurav = 20
     saurav = 30

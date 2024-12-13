@@ -18,6 +18,6 @@ output "usersupperfunction" {
 }
 
 output "usersages" {
-  value = "My name is ${var.usernamewithmap} and my age is ${lookup(var.usersage,var.usernamewithmap)}"
+  value = "My name is ${var.usernamewithmap} and my age is ${lookup(var.usersage, var.usernamewithmap)}"
 }
 
