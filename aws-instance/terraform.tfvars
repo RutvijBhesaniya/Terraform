@@ -1,0 +1,10 @@
+ami                     = "ami-053b12d3152c0cc71"
+instance_type           = "t2.micro"
+key_name                = "terraform-key"
+aws_instance_tags       = "Terraform demo"
+ports                   = [22, 80, 443, 3306]
+aws_security_group_name = "terraform_security_group"
+aws_security_group_tag  = "terraform_security_group"
+aws_region              = "ap-south-1"
+access_key              = ""
+secret_key              = ""
