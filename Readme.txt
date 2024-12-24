@@ -27,6 +27,8 @@ terraform refresh --> If any user has changes and pull then it will take the pul
 
 terraform console --> You can interupt into console and check the variables value or any 
 
+terraform state list --> If the state is still locked, and you want to check the status of your resources before destroying them, you can inspect the state of your infrastructure with
+
 
 ----------------------------Notes------------------------
 
